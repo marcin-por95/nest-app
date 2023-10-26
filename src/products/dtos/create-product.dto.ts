@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Transform } from 'class-transformer';
 import {
   IsInt,
