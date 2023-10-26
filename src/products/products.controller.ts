@@ -9,9 +9,9 @@ import {
   NotFoundException,
 } from '@nestjs/common';
 import { ProductsService } from './products.service';
-import { CreateProductDTO } from './dtos/create-product.dto';
 import { ParseUUIDPipe } from '@nestjs/common';
-import { UpdateProductDTO } from './dtos/update-product-dto';
+import { CreateProductDTO } from './dtos/create-product.dto';
+import { UpdateProductDTO } from 'src/products/dtos/update-product-dto';
 
 @Controller('products')
 export class ProductsController {
